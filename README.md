@@ -15,7 +15,50 @@ An advanced AI-powered desktop automation tool that controls your cursor and key
 
 ## 📋 Project Structure
 
-AI-Cursor-Agent/ ├── README.md ├── requirements.txt ├── setup.py ├── config/ │ ├── config.yaml │ └── llm_config.json ├── src/ │ ├── init.py │ ├── main.py │ ├── agent/ │ │ ├── init.py │ │ ├── ai_agent.py │ │ ├── cursor_controller.py │ │ ├── screenshot_capture.py │ │ └── keyboard_controller.py │ ├── llm/ │ │ ├── init.py │ │ ├── base_llm.py │ │ ├── openai_provider.py │ │ ├── claude_provider.py │ │ ├── ollama_provider.py │ │ ├── groq_provider.py │ │ └── llm_factory.py │ ├── ui/ │ │ ├── init.py │ │ ├── main_window.py │ │ ├── styles.py │ │ └── widgets.py │ └── utils/ │ ├── init.py │ ├── logger.py │ ├── config_loader.py │ └── helpers.py ├── tests/ │ ├── init.py │ ├── test_cursor.py │ ├── test_llm.py │ └── test_agent.py └── docs/ ├── INSTALLATION.md ├── CONFIGURATION.md ├── USAGE.md └── LLM_SETUP.md
+AI-Cursor-Agent/ 
+├── README.md 
+├── requirements.txt 
+├── setup.py 
+├── config/ 
+│ ├── config.yaml 
+│ └── llm_config.json 
+├── src/ 
+│ ├── init.py 
+│ ├── main.py 
+│ ├── agent/ 
+│ │ ├── init.py 
+│ │ ├── ai_agent.py 
+│ │ ├── cursor_controller.py 
+│ │ ├── screenshot_capture.py 
+│ │ └── keyboard_controller.py 
+│ ├── llm/ 
+│ │ ├── init.py 
+│ │ ├── base_llm.py 
+│ │ ├── openai_provider.py 
+│ │ ├── claude_provider.py 
+│ │ ├── ollama_provider.py 
+│ │ ├── groq_provider.py 
+│ │ └── llm_factory.py 
+│ ├── ui/ 
+│ │ ├── init.py 
+│ │ ├── main_window.py 
+│ │ ├── styles.py 
+│ │ └── widgets.py 
+│ └── utils/ 
+│ ├── init.py 
+│ ├── logger.py 
+│ ├── config_loader.py 
+│ └── helpers.py 
+├── tests/ 
+│ ├── init.py 
+│ ├── test_cursor.py 
+│ ├── test_llm.py 
+│ └── test_agent.py 
+└── docs/ 
+├── INSTALLATION.md 
+├── CONFIGURATION.md 
+├── USAGE.md 
+└── LLM_SETUP.md
 
 Code
 
