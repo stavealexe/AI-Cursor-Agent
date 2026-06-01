@@ -1,0 +1,32 @@
+{
+  "openai": {
+    "api_key": "your-openai-api-key-here",
+    "model": "gpt-4-vision-preview",
+    "base_url": "https://api.openai.com/v1",
+    "enabled": true
+  },
+  "claude": {
+    "api_key": "your-anthropic-api-key-here",
+    "model": "claude-3-sonnet-20240229",
+    "base_url": "https://api.anthropic.com",
+    "enabled": false
+  },
+  "ollama": {
+    "base_url": "http://localhost:11434",
+    "model": "llama2",
+    "enabled": false,
+    "notes": "Make sure Ollama is running: ollama serve"
+  },
+  "groq": {
+    "api_key": "your-groq-api-key-here",
+    "model": "mixtral-8x7b-32768",
+    "base_url": "https://api.groq.com",
+    "enabled": false
+  },
+  "gemini": {
+    "api_key": "your-google-api-key-here",
+    "model": "gemini-pro-vision",
+    "base_url": "https://generativelanguage.googleapis.com",
+    "enabled": false
+  }
+}
